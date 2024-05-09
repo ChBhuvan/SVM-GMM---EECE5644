@@ -6,9 +6,9 @@ Once we conclude on the number to perceptron to use then we can run it again on 
 In this section, we use GMM-based clustering to segment colour image. The image below shows the RGB colour image and its corresponding grayscale image after clustering with K = 2 components.
 The following process was performed on the colour images:
 1.
-For preprocessing, generate a 5-dimensional feature array (comprising of row index, column index, r, G, B values)
+  For preprocessing, generate a 5-dimensional feature array (comprising of row index, column index, r, G, B values)
 2.
-For each pixel:
+  For each pixel:
 Append row index, column index, red, green and blue values to a feature array
 Normalize each feature to [0, 1], i.e., the feature vectors fit in the 5-dimensional hypercube
 Run segmentation algorithm on normalized feature vectors
